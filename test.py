@@ -127,7 +127,7 @@ fig5 = px.imshow(pivot_table,
                  y=pivot_table.index,
                  text_auto='.2f',
                  color_continuous_scale='Viridis',
-                 title='BIỂU ĐỒ HEATMAP PHÂN BỔ TRUNG BÌNH LƯƠNG (USD) THEO TỪNG NĂM VỚI MỖI HÃNG')
+                 title='BIỂU ĐỒ HEATMAP PHÂN BỔ TRUNG BÌNH GIÁ (1k$) THEO TỪNG NĂM VỚI MỖI LOẠI PIN')
 fig5.show()
 
 #Biểu đồ loại 4: Biểu đồ heatmap phân bổ trung bình giá (1k$) theo từng năm đối với hãng (PTMT: Đa biến (3) - dữ liệu hỗn hợp)
@@ -141,7 +141,7 @@ fig6 = px.imshow(pivot_table,
                  y=pivot_table.index,
                  text_auto='.2f',
                  color_continuous_scale='Viridis',
-                 title='BIỂU ĐỒ HEATMAP PHÂN BỔ TRUNG BÌNH LƯƠNG (USD) THEO TỪNG NĂM VỚI MỖI HÃNG')
+                 title='BIỂU ĐỒ HEATMAP PHÂN BỔ TRUNG BÌNH GIÁ (1K$) THEO TỪNG NĂM VỚI MỖI HÃNG')
 fig6.show()
 
 # Biểu đồ lọai 5: Biểu đồ Scatter thể hiện giá ảnh hưởng bởi năm và quãng đường đi được tối đa thực tế(PTMT: Đa biến (3) - dữ liệu hỗn hợp)
